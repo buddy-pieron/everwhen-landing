@@ -13,7 +13,7 @@ export async function generateStaticParams() {
 export async function generateMetadata({ params }: { params: Promise<{ tag: string }> }) {
   const { tag } = await params
   return {
-    title: `Posts tagged "${tag}" | Pieron Labs`,
+    title: `Posts tagged "${tag}" | EverWhen`,
   }
 }
 

@@ -4,7 +4,7 @@ export const runtime = 'edge'
 
 export async function GET(request: Request) {
   const { searchParams } = new URL(request.url)
-  const title = searchParams.get('title') || 'Pieron Labs'
+  const title = searchParams.get('title') || 'EverWhen'
   const description = searchParams.get('description') || 'Technical insights on Next.js, Convex, and AI'
 
   return new ImageResponse(
@@ -65,7 +65,7 @@ export async function GET(request: Request) {
               color: 'white',
             }}
           >
-            Pieron Labs
+            EverWhen
           </div>
         </div>
       </div>

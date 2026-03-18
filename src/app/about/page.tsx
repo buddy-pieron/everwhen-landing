@@ -2,11 +2,11 @@ export default function AboutPage() {
   return (
     <div className="container mx-auto px-4 py-12">
       <div className="max-w-3xl mx-auto">
-        <h1 className="text-4xl font-bold mb-8">About Pieron Labs</h1>
+        <h1 className="text-4xl font-bold mb-8">About EverWhen</h1>
         
         <div className="prose prose-lg dark:prose-invert">
           <p>
-            Hi, I'm <strong>Jack Pieron</strong>, founder of Pieron Labs. I build modern web applications 
+            Hi, I'm <strong>Jack Pieron</strong>, founder of EverWhen. I build modern web applications 
             using Next.js, Convex, and AI tools.
           </p>
           

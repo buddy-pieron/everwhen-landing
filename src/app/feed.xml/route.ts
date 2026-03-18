@@ -6,13 +6,13 @@ export async function GET() {
   const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://blog.pieronlabs.com'
 
   const feed = new Feed({
-    title: 'Pieron Labs Blog',
+    title: 'EverWhen Blog',
     description: 'Technical insights on Next.js, Convex, and AI tools',
     id: siteUrl,
     link: siteUrl,
     language: 'en',
     favicon: `${siteUrl}/favicon.ico`,
-    copyright: `All rights reserved ${new Date().getFullYear()}, Pieron Labs`,
+    copyright: `All rights reserved ${new Date().getFullYear()}, EverWhen`,
     author: {
       name: 'Jack Pieron',
       email: 'jack@pieronlabs.com',

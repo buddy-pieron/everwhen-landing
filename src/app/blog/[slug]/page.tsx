@@ -26,7 +26,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   }
 
   return {
-    title: `${post.title} | Pieron Labs`,
+    title: `${post.title} | EverWhen Blog`,
     description: post.description,
   }
 }
